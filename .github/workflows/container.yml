@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: npm run build
         
-      - name: Action AWS cli
+      - name: Action AWS CLI
         uses: chrislennon/action-aws-cli@v1.1
         env: 
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
